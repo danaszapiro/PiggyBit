@@ -2,11 +2,7 @@
 Retrieve desired up-to-date price of a cryptocurrency in a currency of choice
 
 Built with:
-Java 
-Apache-Maven
-Springboot
-Thymeleaf
-Eclipse IDE
+Java | Apache-Maven | Springboot | Thymeleaf | Eclipse IDE
 
 How to run:
 1. Clone the repo
