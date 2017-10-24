@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Currency and Crypto Demo: Result Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'Crypto currency requested: ' + ${crypto != null ? crypto : 'NOT FOUND'} "/>
+    <p th:text="'Price for ' + ${crypto != null ? crypto : 'NOT FOUND'} + ' in ' + ${currency != null ? currency : 'NOT FOUND'} + ' is: ' + ${price != null ? price : 'NOT FOUND'} " />
+    <a href="/submit">Submit another request</a>
+</body>
+</html>
