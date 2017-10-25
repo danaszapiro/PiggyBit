@@ -11,8 +11,6 @@ import org.json.simple.parser.ParseException;
 
 public class PriceFetcher {
 
-	private static final String API_KEY = "FZ8tws1OvtOlzxQ6";
-	private static final String API_SECRET = "qwykxzTDXIMGeQeODQQYR9BA6vKX9mGN";
 	private static final String EXCHANGE_URL = "https://api.coinbase.com/v2/exchange-rates?currency=";
 	
 	static String getRequest(String crypto) throws IOException{
